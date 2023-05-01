@@ -1,0 +1,148 @@
+body, h2, p, a {
+	margin-left: 1%;
+	margin-right: 2%;
+	background-color: #e5eaf5;
+}
+header {
+	height: 90vh;
+	background-image: url(https://7nebo-sport.ru/wp-content/uploads/2020/11/image-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: left;
+	margin-left: -1%;
+	margin-right: -2%;
+	margin-top: -1%;
+}
+h2 {
+	width: 100%;
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font: bold italic 24px/30px Arial;
+}
+p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+li {
+	width: 100%;
+	text-align: justify;
+	font: bold italic 16px/30px Arial;
+}
+.epilogue {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font: bold italic 18px/30px Arial;
+}
+.red {
+	color: red;
+}
+.card {
+	width: 100%;
+	margin-bottom: 0px;
+}
+.textcols {
+	width: 100%;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+.textcols-item {
+	width: 48%;
+	margin-bottom: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 3%;
+}
+.card-text {
+	color: rgb(58, 74, 7 );
+	text-align: justify;
+	width: 100%;
+	font: bold italic 16px/30px Arial;
+	text-indent: 10px;
+}
+.card-image {
+		height: 50%;
+		width: 50%;
+		background-size: cover;
+		background-position: center;
+}
+.cover {
+	font-size: 150px;
+	mix-blend-mode: overlay;
+}
+img:hover {
+	transform: scale(2);
+	margin-left: 25vh;
+}
+video {
+	height: 100%;
+	width: 100%;
+	margin-left: 5%;
+}
+.cat img {
+	width: 50px;
+	margin-left: 5vh;
+	animation-name: rotate;
+	animation-duration: 10s;
+	animation-delay: 2s;
+	text-align: center;
+  }
+	@keyframe rotate {
+	0% { transform: rotate(0turn); }
+	100% { transform: rotate(6turn); }
+  }
+  @-webkit-keyframes rotate {
+	0% { transform: rotate(0turn); }
+	100% { transform: rotate(6turn); }
+  }
+  .card1 {
+	width: 100vw;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .card1 h1 { 
+	font-size: 800px;
+	mix-blend-mode: overlay;
+	width: 600vh;
+	text-align: 0;
+	padding-top: 6%;
+	font-size: 30px;
+	text-indent: 80px;
+	font: bold italic 50px/50px Arial;
+	position: relative;
+	z-index: 2;
+	}
+	a:link {
+		color: red;
+	}
+	a:visited {
+		color: green;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:active {
+		color: blue;
+	}
+	li:nth-child(odd) {
+		color: rgb(53, 36, 149);
+	}
+	li:nth-child(even) {
+		color: rgb(72, 207, 103);
+	}
+	ul {
+		margin-top: 5px;
+	}
+	q:lang(en) {
+		quotes: "\201C" "\201D";
+		color:rgb(196, 42, 165)
+	}
+	
